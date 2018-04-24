@@ -1,0 +1,112 @@
+.header {
+    height: 75vh;
+    background: linear-gradient( rgba(218, 45, 45, 0.35),
+    rgba(218, 45, 45, 0.35)), url(../Resources/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    line-height: 75vh;
+}
+
+.header span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 12vh;
+    font-size: 3vh;
+}
+
+.header .maintext {
+    font-size: 20vh;
+}
+
+.footer {
+    background-color: #272822;
+    color: white;
+    text-align: center;
+    min-height: 25vh;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-fixed {
+        height: 80px;
+        width: 100vw;
+        top: 0;
+    }
+    
+    .navbarbut {
+        float: right;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+
+    .logo {
+        width: auto;
+        height: 100%;
+        padding: 1em;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-fixed {
+        left: 0;
+        height: 100vh;
+        width: 16.67vw;
+    }
+    
+    .navbarbut {
+        display: none;
+    }
+
+
+    .logo {
+        width: 100%;
+        padding: 1em;
+    }
+    
+    .show-media#navbarToggle {
+        display: block;
+    }
+
+}
+
+.navbar-fixed {
+    background-color: #272822;
+    position: fixed;
+    display: block;
+    z-index: 500;
+}
+
+.navbar-fixed .active {
+    background-color: #da2d2d;
+}
+
+.navbar-fixed ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-fixed ul li a {
+    background-color: #272822;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 1.5em 1em;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.navbar-fixed ul li a:hover {
+    background-color: #da2d2d;
+    cursor: pointer;
+}
+
+.format-padding {
+    padding: 0;
+}
