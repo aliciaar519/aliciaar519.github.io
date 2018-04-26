@@ -11,68 +11,145 @@
 
 <body>
 
-    <div class="navbar-fixed">
+    <div class="navbar-dark navbar-fixed">
+        <img src="Resources/yao-logo.png" class="logo" />
+        <button class="navbar-toggler navbarbut" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <ul class="collapse show-media" id="navbarToggle">
+            <li>
+                <a class="nav-button" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav-button" href="buffet.html">Buffet</a>
+            </li>
+            <li>
+                <a class="nav-button" href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a class="nav-button" href="event.html">Event Space</a>
+            </li>
+            <li>
+                <a class="nav-button active" href="reservations.html">Reservations</a>
+            </li>
+            <li>
+                <a class="nav-button" href="gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </div>
 
-
-            <img src="Resources/yao-logo.png" class="logo" />
-            <ul>
-                <li>
-                    <a class="nav-button" href="index.html">Home</a>
-                </li>
-                <li>
-
-                    <a class="nav-button" href="buffet.html">Buffet</a>
-
-                </li>
-                <li>
-                    <a class="nav-button" href="menu.html">Menu</a>
-                </li>
-                <li>
-                    <a class="nav-button" href="event.html">Event Space</a>
-                </li>
-                <li>
-
-                    <a class="nav-button active" href="reservations.html">Reservations</a>
-                </li>
-                <li>
-                    <a class="nav-button" href="gallery.html">Gallery</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-2" id="nav-block"></div>
-                <div class="col-md-10" id="content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12" id="header">
-                                <div>Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header </div>
+    <div class="container-fluid">
+        <div class="row main-content">
+            <div class="col-md-2" id="nav-block"></div>
+            <div class="col-md-10 format-padding main-background" id="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12" id="header">
+                            <h1>Reservations</h1>
+                        </div>
+                    </div>
+                    <div class="row main-cont">
+                        <div class="col-md-6" id="content-left">
+                            <div class="res-div">
+                                <div>We strive to treat all of our customers equally. In order to be fair, reservations are made on a first come, first serve basis. Individual tables cannot be reserved. However, our private rooms found <a class="nav-button" href="event.html">here</a> can be reserved at no cost.
+                                </div>
+                            </div>
+                            <div class="res-div">
+                                <div>Most reservations can be made the day of your event. To guarantee a room, it is best to reserve a room one week in advance. We are happy to accommodate requests regarding table set-ups and room decorations. For any special requests, please call us in advance at 828-667-0410.</div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6" id="content-left">Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left </div>
-                            <div class="col-md-6" id="content-right">Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12" id="footer">
-                                <div>Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer </div>
-                            </div>
+                        <div class="col-md-6" id="content-right">
+                            <form action="/action_page.php">
+                                <fieldset class="form-group row">
+                                    <legend class="col-form-legend">Room</legend>
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            &nbsp; &nbsp; Imperial Room
+          </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            &nbsp; &nbsp; Emporor Room
+          </label>
 
-                            <div class="col-md-12" id="header"></div>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+            &nbsp; &nbsp; Dynasty Room
+          </label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel">Phone:</label>
+                                    <input type="tel" class="form-control" id="tel" placeholder="Enter phone number" name="tel">
+                                </div>
+                                <div class="form-group">
+                                    <label for="size">Number of people:</label>
+                                    <input type="text" class="form-control" id="size" placeholder="Enter party size" name="size">
+                                </div>
+                                <div class="form-group">
+                                    <label for="date">Date</label>
+                                    <input type="date" class="form-control" id="size" placeholder="Enter party size" name="size">
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                                <br>
+                            </form>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12" id="footer"></div>
+                    </div>
+                    <div class="row bottom">
+                        <div class="col-md-4 footer" id="footer">
+                            <h1>Hours of Operation</h1>
+                            <div>Monday: 11:00AM-9:30PM</div>
+                            <div>Tuesday: CLOSED</div>
+                            <div>Wednesday: 11:00AM-9:30PM</div>
+                            <div>Thursday: 11:00AM-9:30PM</div>
+                            <div>Friday: 11:00AM-9:30PM</div>
+                            <div>Saturday: 11:00AM-9:30PM</div>
+                            <div>Sunday: 11:00AM-9:30PM</div>
+                        </div>
+                        <div class="col-md-4 footer" id="footer">
+                            <h1>Contact</h1>
+                            <div>Phone: (828) 667-0410</div>
+                            <div>153 Smokey Park Hwy. Asheville, NC 28806</div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.5476665193305!2d-82.63140858474435!3d35.56487198022156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88598c342c84127f%3A0x471fb9c7454de78a!2s153+Smokey+Park+Hwy%2C+Asheville%2C+NC+28806!5e0!3m2!1sen!2sus!4v1456344901360" width="100%" height="120" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                        </div>
+                        <div class="col-md-4 footer" id="footer">
+                            <h1>Get Connected</h1>
+                            <a href="https://www.facebook.com/Yao-Buffet-Sushi-Grill-322403227776421/" target="_blank">
+                                <img src="Resources/facebook.png" alt="Facebook logo">
+                            </a>
+                            <a href="https://www.yelp.com/biz/yao-buffet-sushi-grill-asheville" target="_blank">
+                                <img src="Resources/yelp.png" alt="Yelp logo">
+                            </a>
+                            <a href="https://www.google.com/search?q=google+reviews+yao+buffet&rlz=1C1CHBF_enUS748US748&oq=google+reviews+yao+buffet&aqs=chrome..69i57j69i64.3133j1j7&sourceid=chrome&ie=UTF-8#lrd=0x88598c36840059f3:0x17cf58862a70d327,1,,," target="_blank">
+                                <img src="Resources/googleplus.png" alt="Google logo">
+                            </a>
 
                         </div>
+
+                        <div class="col-md-12" id="header"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="footer"></div>
                     </div>
                 </div>
             </div>
         </div>
-        
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
 </body>

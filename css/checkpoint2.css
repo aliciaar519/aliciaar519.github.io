@@ -1,46 +1,57 @@
-.color-palette1{
-   background-color: #272822;
+.color-palette1 {
+    background-color: #272822;
     padding-bottom: 100px;
     color: white;
 }
-.color-palette2{
+
+.color-palette2 {
     background-color: #d5a95a;
     padding-bottom: 100px;
 }
-.color-palette3{
+
+.color-palette3 {
     background-color: #d9d1cf;
     padding-bottom: 100px;
 }
-.color-palette4{
-    background-color: #553620; 
+
+.color-palette4 {
+    background-color: #553620;
     padding-bottom: 100px;
     color: white;
 }
-.color-palette5{
-    background-color: #da2d2d; 
+
+.color-palette5 {
+    background-color: #da2d2d;
     padding-bottom: 100px;
 }
-.header1{
+
+.header1 {
     font-family: "Verdana";
     font-size: 2em;
 }
-.header2{
+
+.header2 {
     font-family: "Verdana";
     font-size: 1.5em;
 }
-.p{
+
+.p {
     font-family: "Verdana";
     font-size: 0.8em;
 }
-.menubar{
+
+.menubar {
     font-family: "Arial Black";
 }
-.menubar-hover{
+
+.menubar-hover {
     font-family: "Tahoma";
 }
-.contact-us{
-    font-family: "Arial";   
+
+.contact-us {
+    font-family: "Arial";
 }
+
 .button1 {
     background-color: #272822;
     width: 200px;
@@ -54,7 +65,7 @@
     background-color: #da2d2d;
 }
 
-form{
+form {
     background-color: #272822;
     color: white;
     width: 400px;
@@ -65,7 +76,7 @@ form input {
     float: right;
 }
 
-.yao-img{
+.yao-img {
     width: 100%;
     margin: 1em;
 }

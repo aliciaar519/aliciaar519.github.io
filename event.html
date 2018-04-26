@@ -10,9 +10,12 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <img src="Resources/yao-logo.png" class="logo" />
-        <ul>
+    <div class="navbar-dark navbar-fixed">
+        <img src="./Resources/yao-logo.png" class="logo" />
+        <button class="navbar-toggler navbarbut" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <ul class="collapse show-media" id="navbarToggle">
             <li>
                 <a class="nav-button" href="index.html">Home</a>
             </li>
@@ -23,7 +26,6 @@
                 <a class="nav-button" href="menu.html">Menu</a>
             </li>
             <li>
-
                 <a class="nav-button active" href="event.html">Event Space</a>
             </li>
             <li>
@@ -36,27 +38,105 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
+        <div class="row main-content">
             <div class="col-md-2" id="nav-block"></div>
-            <div class="col-md-10" id="content">
+            <div class="col-md-10 format-padding main-background" id="content">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12" id="header">
-                            <div>Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header Header </div>
+                            <h1>Private Rooms</h1>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6" id="content-left">Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left Content left </div>
-                        <div class="col-md-6" id="content-right">Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right Content right </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="footer">
-                            <div>Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer Footer </div>
+                    <div class="row main-cont">
+                        <div class="col-md-6" id="content-left">
+                            <div class="event-div">
+                                <div>Have your next meeting in one of our three beautifully decorated meeting rooms. Each room has full media capabilities and can accommodate from 25 to 100 individuals. Your group can reserve one of the rooms either on a weekly schedule or on an “as needed” basis. We specialize in providing space for church groups, clubs, reunions, parties, business groups, and much more.</div>
+                            </div>
+                            <div class="event-div">
+                                <h2>Available Rooms</h2>
+                                <ul>
+                                    <li>Imperial Room, 25-30 people</li>
+                                    <li>Emporor Room, 50 people</li>
+                                    <li>Dynasty Room, 100 people</li>
+                                </ul>
+                                <div>To make a reservation, click <a class="nav-button" href="reservations.html">here</a></div>
+                            </div>
                         </div>
-                        <div class="col-md-12" id="header"></div>
+                        <div class="col-md-6" id="content-right">
+
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./Resources/IMG_1000.jpg" alt="Small room" style="width:100%;">
+                                        <div class="carousel-caption">
+                                            <p>Imperial Room</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="./Resources/IMG_7906.jpg" alt="Left projector room" style="width:100%;">
+                                        <div class="carousel-caption">
+                                            <p>Dynasty Room</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="./Resources/IMG_7907.jpg" alt="Projector room" style="width:100%;">
+                                        <div class="carousel-caption">
+                                            <p>Dynasty Room</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12" id="footer"></div>
+                    <div class="row bottom">
+                        <div class="col-md-4 footer" id="footer">
+                            <h1>Hours of Operation</h1>
+                            <div>Monday: 11:00AM-9:30PM</div>
+                            <div>Tuesday: CLOSED</div>
+                            <div>Wednesday: 11:00AM-9:30PM</div>
+                            <div>Thursday: 11:00AM-9:30PM</div>
+                            <div>Friday: 11:00AM-9:30PM</div>
+                            <div>Saturday: 11:00AM-9:30PM</div>
+                            <div>Sunday: 11:00AM-9:30PM</div>
+                        </div>
+                        <div class="col-md-4 footer" id="footer">
+                            <h1>Contact</h1>
+                            <div>Phone: (828) 667-0410</div>
+                            <div>153 Smokey Park Hwy. Asheville, NC 28806</div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.5476665193305!2d-82.63140858474435!3d35.56487198022156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88598c342c84127f%3A0x471fb9c7454de78a!2s153+Smokey+Park+Hwy%2C+Asheville%2C+NC+28806!5e0!3m2!1sen!2sus!4v1456344901360" width="100%" height="120" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                        </div>
+                        <div class="col-md-4 footer" id="footer">
+                            <h1>Get Connected</h1>
+                            <a href="https://www.facebook.com/Yao-Buffet-Sushi-Grill-322403227776421/" target="_blank">
+                                <img src="Resources/facebook.png" alt="Facebook logo">
+                            </a>
+                            <a href="https://www.yelp.com/biz/yao-buffet-sushi-grill-asheville" target="_blank">
+                                <img src="Resources/yelp.png" alt="Yelp logo">
+                            </a>
+                            <a href="https://www.google.com/search?q=google+reviews+yao+buffet&rlz=1C1CHBF_enUS748US748&oq=google+reviews+yao+buffet&aqs=chrome..69i57j69i64.3133j1j7&sourceid=chrome&ie=UTF-8#lrd=0x88598c36840059f3:0x17cf58862a70d327,1,,," target="_blank">
+                                <img src="Resources/googleplus.png" alt="Google logo">
+                            </a>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -65,5 +145,5 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>

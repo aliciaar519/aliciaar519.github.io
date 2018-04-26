@@ -12,6 +12,16 @@
     line-height: 75vh;
 }
 
+.main-content {
+    min-height: 100vh;
+}
+
+.main-background {
+    background-color: #232323;
+    color: white;
+    min-height: 75vh;
+}
+
 .header span {
     display: inline-block;
     vertical-align: middle;
@@ -23,26 +33,66 @@
     font-size: 20vh;
 }
 
+#header h1 {
+    font-size: 3em;
+    text-align: center;
+    border-bottom: 1vh solid #da2d2d;
+    padding: 0.5em;
+    background: linear-gradient( rgba(218, 45, 45, 0.35),
+    rgba(218, 45, 45, 0.35)), url(../Resources/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bottom {
+    border-top: 1vh solid #da2d2d;
+}
+
 .footer {
     background-color: #272822;
     color: white;
     text-align: center;
     min-height: 25vh;
+    bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 90%;
 }
 
 @media screen and (max-width: 767px) {
+
+    table {
+        text-align: center;
+    }
+
+    table .menu-entry td {
+        text-align: left;
+    }
+
+    #nav-block {
+        height: 80px;
+    }
+
     .navbar-fixed {
         height: 80px;
         width: 100vw;
         top: 0;
     }
-    
+
     .navbarbut {
         float: right;
         margin-top: 20px;
         margin-right: 20px;
     }
-
 
     .logo {
         width: auto;
@@ -53,22 +103,33 @@
 }
 
 @media screen and (min-width: 768px) {
+
+    .main-cont {
+        min-height: 60vh;
+    }
+
+    .bottom {
+        font-size: 1em;
+    }
+
+    .footer h1 {
+        font-size: 2em;
+    }
     .navbar-fixed {
         left: 0;
         height: 100vh;
         width: 16.67vw;
     }
-    
+
     .navbarbut {
         display: none;
     }
-
 
     .logo {
         width: 100%;
         padding: 1em;
     }
-    
+
     .show-media#navbarToggle {
         display: block;
     }
@@ -83,7 +144,8 @@
 }
 
 .navbar-fixed .active {
-    background-color: #da2d2d;
+    background-color: #d5a95a;
+    color: black;
 }
 
 .navbar-fixed ul {
@@ -103,10 +165,47 @@
 }
 
 .navbar-fixed ul li a:hover {
-    background-color: #da2d2d;
+    background-color: #d5a95a;
+    color: black;
     cursor: pointer;
 }
 
 .format-padding {
     padding: 0;
+}
+
+.food-description {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.carousel-caption {
+    background-color: #272822;
+    padding: 0.1px;
+    width: 40%;
+    margin: auto;
+    top: 3%;
+    bottom: auto;
+}
+
+.buffet-info {
+    text-align: center;
+    padding: 10% 0;
+}
+
+.event-div {
+    padding: 20px;
+}
+
+.res-div {
+    padding: 20px;
+}
+
+.tz-gallery {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.col-form-legend {
+    padding-left: 3%;
 }
